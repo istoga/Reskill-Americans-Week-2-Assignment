@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Design-Home Page</title>
+    <link rel="icon" href="/img/favicon.png">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Nav -->
+        <nav>
+            <img src="./img/white-logo.png" alt="logo" id="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <div class="hero-image">
+            <div class="overlay">
+                <div class="video-container">
+                    <video id="video-hero" autoplay loop muted poster="/img/pinkwater.mp4" src="/img/pinkwater-min.mp4" type="video/mp4"></video>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1>Where creativity<img src="img/nav-arrow-right.svg" class="arrows">meets<img src="img/nav-arrow-left.svg" class="arrows"> technology.</h1>
+            </div>
+            <div id="center-button">
+                <button class="hero-button"><a href="contact.html">Contact Us</a></button>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="about">
+            <h3>We love creating, and we love technology.<br> Bringing them together is a match made in digital heaven.</h3>
+            <button><a href="about.html">About Me</a></button>
+        </div>
+        <hr>
+
+        <!-- Services -->
+        <h2 class="services-title">Services</h2>
+            <div class="grid-container services">
+                <div class="grid-item">
+                    <a href="services.html"><img src="img/page-flip.svg" alt="landing page icon"></a>
+                    <div class="card-caption">
+                        <h4><a href="services.html">Landing Page</a></h4>
+                        <p>$150</p>
+                        <p>Landing page in 72 hours.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <a href="services.html"><img src="img/laptop.svg" alt="laptop icon"></a>
+                    <div class="card-caption">
+                        <h4><a href="services.html">One Page Website</a></h4>
+                        <p>$500</p>
+                        <p>One page scrolling website.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <a href="services.html"><img src="img/tools.svg" alt="tools icon"></a>
+                    <div class="card-caption">
+                        <h4><a href="services.html">Web Development</a></h4>
+                        <p>$75/hour</p>
+                        <p>Web development by the hour.</p>
+                    </div>
+                </div>
+            </div>
+        <hr>
+        
+        <!-- Contact -->
+        <h2 class="contact-title">Contact</h2>
+        <div class="contact">
+            <button id="contact-button"><a href="contact.html">Contact</a></button>
+        </div>
+        
+    </div>
+</body>
+</html>
